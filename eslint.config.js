@@ -1,18 +1,19 @@
-// eslint.config.js
-export default [
+/** @type {import("eslint").FlatConfig[]} */
+module.exports = [
   {
-    files: ["**/*.js"],
+    files: ['**/*.js'],
     languageOptions: {
-      ecmaVersion: "latest",
-      sourceType: "module",
+      ecmaVersion: 'latest',
+      sourceType: 'module',
     },
     linterOptions: {
       reportUnusedDisableDirectives: true,
     },
     rules: {
-      semi: "error",
-      quotes: ["error", "single"],
-      "no-unused-vars": "warn",
+      semi: 'error',
+      quotes: ['error', 'single'],
+      'no-unused-vars': 'warn'
     },
   },
 ];
+
