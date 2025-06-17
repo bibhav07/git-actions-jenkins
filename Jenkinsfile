@@ -15,19 +15,19 @@ pipeline {
 
     stage('Install dependencies') {
       steps {
-        sh 'npm install'
+        bat 'npm install'
       }
     }
 
     stage('Lint code') {
       steps {
-        sh 'npm run lint'
+        bat 'npm run lint'
       }
     }
 
     stage('Run Tests') {
       steps {
-        sh 'npm run test'
+        bat 'npm run test'
       }
     }
   }
