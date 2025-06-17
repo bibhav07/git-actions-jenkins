@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   tools {
-    nodejs 'NodeJS 18'  // defined in Jenkins > Global Tool Configuration
+    nodejs 'NodeJS'  // defined in Jenkins > Global Tool Configuration
   }
 
   stages {
