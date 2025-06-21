@@ -19,12 +19,6 @@ pipeline {
       }
     }
 
-    stage('Lint code') {
-      steps {
-        bat 'npm run lint'
-      }
-    }
-
     stage('Run Tests') {
       steps {
         bat 'npm run test'

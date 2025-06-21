@@ -1,8 +1,9 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start" : "node main.js",
     "test": "jest",
     "lint": "eslint ."
   },
@@ -13,5 +14,8 @@
   "devDependencies": {
     "eslint": "^9.29.0",
     "jest": "^30.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
