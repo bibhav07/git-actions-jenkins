@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 
-app.use("/hi", (req, res) => {
+app.use("/hello", (req, res) => {
     res.status(200).json({ message: "hey, welcome...." })
 });
 
