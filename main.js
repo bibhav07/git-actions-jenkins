@@ -3,7 +3,7 @@ const app = express();
 
 
 app.use("/hi", (req, res) => {
-    res.status(200).json({ message: "hey user, welcome...." })
+    res.status(200).json({ message: "hey, welcome...." })
 });
 
 app.listen( 3000, () => {
